@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mooli", sans-serif;
+}
+
+body {
+  padding: 40px 500px;
+  align-items: center;
+}
+body .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 350px;
+}
+body .card .card-top {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+body .card .card-top .plus {
+  color: white;
+  border: 1px solid transparent;
+  background-color: rgb(33, 169, 169);
+  width: 40px;
+  height: 40px;
+  border-radius: 3rem;
+  font-size: 35px;
+  position: absolute;
+  top: 60%;
+  right: 10%;
+}
+body .card .card-top .menu {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+body .card .card-top .message {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 90%;
+}
+body .card .card-top img {
+  width: 350px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  mix-blend-mode: color;
+}
+body .card .card-body {
+  padding: 0 20px;
+}
+body .card .card-body .me {
+  padding: 15px 0;
+}
+body .card .card-body .me h2 {
+  margin-left: 40px;
+}
+body .card .card-body .me h3 {
+  margin-left: 60px;
+  padding: 5px;
+}
+body .card .card-body .icon {
+  padding: 10px;
+  margin-left: 80px;
+}
+body .card .card-body .icon a {
+  font-size: 30px;
+}
+body .card .card-footer {
+  display: flex;
+  gap: 1rem;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

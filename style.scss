@@ -1,0 +1,86 @@
+// @import "./partials/global";
+// @import "./partials/card-top";
+// @import "./partials/card-boby";
+// @import "./partials/card-footer";
+// @import "./partials/card";
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mooli", sans-serif;
+}
+body {
+  padding: 40px 500px;
+  align-items: center;
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 350px;
+    .card-top {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      .plus {
+        color: white;
+        border: 1px solid transparent;
+        background-color: rgb(33, 169, 169);
+        width: 40px;
+        height: 40px;
+        border-radius: 3rem;
+        font-size: 35px;
+        position: absolute;
+        top: 60%;
+        right: 10%;
+      }
+      .menu {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+      }
+      .message {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 0;
+        left: 90%;
+      }
+      img {
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+        mix-blend-mode: color;
+      }
+    }
+    .card-body {
+      padding: 0 20px;
+      .me {
+        padding: 15px 0;
+        h2 {
+          margin-left: 40px;
+        }
+        h3 {
+          margin-left: 60px;
+          padding: 5px;
+        }
+      }
+      .icon {
+        padding: 10px;
+        margin-left: 80px;
+        a {
+          font-size: 30px;
+        }
+      }
+    }
+    .card-footer {
+      display: flex;
+      gap: 1rem;
+      padding: 20px;
+    }
+  }
+}
