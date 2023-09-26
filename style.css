@@ -59,6 +59,7 @@ body .card .card-top img {
 }
 body .card .card-body {
   padding: 0 20px;
+  background-color: gray;
 }
 body .card .card-body .me {
   padding: 15px 0;
